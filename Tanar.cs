@@ -17,7 +17,7 @@ namespace Karesz
 		string betöltendő_pálya = "palya01.txt";
 		void TANÁR_ROBOTJAI()
 		{
-			Robot karesz = new Robot("Karesz", 1000, 1000, 1000, 1000, 0, 20, 15, r.Next(4));
+			Robot karesz = new Robot("Karesz", 1000, 1000, 1000, 1000, 0, 20, 15, r.Next(4), false, false);
 			Betölt(betöltendő_pálya);
 			Vektor[] kijáratok = new Vektor[]
 			{
